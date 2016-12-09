@@ -1,0 +1,31 @@
+{
+  "name": "rudrax/redbean",
+  "type": "library",
+  "description": "redbeanphp service for Rudrax",
+  "keywords": [
+    "rudra",
+    "API",
+    "redbeanphp",
+    "smarty"
+  ],
+  "license": "MIT",
+  "homepage": "http://api.spamjs.org",
+  "authors": [
+    {
+      "name": "Lalit Tanwar",
+      "email": "lalit.tanwar07@gmail.com",
+      "homepage": "http://lalittanwar.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": ""
+    }
+  },
+  "require": {
+    "gabordemooij/redbean": "v4.3.3"
+  },
+  "suggest": {
+    "rudrax/boot": "1.*"
+  }
+}
